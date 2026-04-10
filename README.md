@@ -1,13 +1,13 @@
-📘 Quiz Struktur Data – Q1
+ Quiz Struktur Data – Q1
 
-👤 Identitas
-	•	Nama: (Isi Nama Anda)
-	•	NIM: (Isi NIM Anda)
-	•	Kelas: (Isi Kelas Anda)
+## Identitas
+	•	Nama: (I GEDE WIRA YOGA)
+	•	NIM: (2501010086)
+	•	Kelas: C
 
 ⸻
 
-1. Karakteristik Memori dan Akses Data
+## 1. Karakteristik Memori dan Akses Data
 
 Pada struktur array, elemen-elemen disimpan secara berurutan dalam memori (kontigu). Hal ini memungkinkan sistem untuk menghitung alamat suatu elemen secara langsung menggunakan indeks. Oleh karena itu, proses akses data dapat dilakukan dengan sangat cepat, yaitu dalam kompleksitas waktu O(1).
 
@@ -15,7 +15,7 @@ Berbeda dengan itu, pada singly linked list, elemen tidak disimpan secara berseb
 
 ⸻
 
-2. Analisis Efisiensi Operasi Manipulasi
+## 2. Analisis Efisiensi Operasi Manipulasi
 
 Struktur linked list lebih efektif digunakan ketika sering terjadi operasi penyisipan dan penghapusan data, terutama di bagian tengah.
 
@@ -27,7 +27,7 @@ Dengan demikian, linked list lebih cocok untuk kondisi di mana manipulasi data l
 
 ⸻
 
-3. Konsep Doubly Linked List
+## 3. Konsep Doubly Linked List
 
 Pada doubly linked list, setiap node memiliki tiga komponen utama:
 	•	Data
@@ -40,7 +40,7 @@ Namun, konsekuensinya adalah penggunaan memori menjadi lebih besar dibandingkan 
 
 ⸻
 
-4. Mekanisme Circular Linked List
+## 4. Mekanisme Circular Linked List
 
 Circular linked list merupakan variasi dari linked list di mana node terakhir tidak menunjuk ke nilai null, melainkan kembali ke node pertama sehingga membentuk sebuah siklus.
 
@@ -50,9 +50,9 @@ Contoh penerapan dari struktur ini adalah pada sistem round robin scheduling, di
 
 ⸻
 
-5. Array Dinamis di Python
+## 5. Array Dinamis di Python
 
-Dalam Python, tipe data list sebenarnya diimplementasikan sebagai dynamic array.
+Dalam Python, tipe data list sebenarnya diimplementas ikan sebagai dynamic array.
 
 Ketika kapasitas array sudah penuh dan dilakukan operasi append, Python akan:
 	1.	Mengalokasikan memori baru dengan kapasitas lebih besar
